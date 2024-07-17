@@ -1,0 +1,100 @@
+.containerSignUp{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 600px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    background-color: #1c2237;
+    padding-bottom: 100px;
+}
+
+.headerSignUp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.textSignUp{
+    color: coral;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.underlineSignUp{
+    width: 61px;
+    height: 6px;
+    background-color: coral;
+    border-radius: 9px;
+}
+
+.inputsSignUp{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.inputSignUp{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 55px;
+    background-color: white;
+    border-radius: 6px;
+}
+
+.imgInputSignUp{
+    margin: 0px 30px;
+}
+
+.inputTypeSignUp{
+    height: 50px;
+    width: 400px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 19px;
+}
+
+.forgot-passwordSignUp{
+    padding-left: 62px;
+    margin-top: 27px;
+    color: white;
+    font-size: 18px;
+}
+
+.forgot-passwordSignUp span {
+    color: coral;
+    cursor: pointer;
+}
+
+.submit-containerSignUp{
+    display: flex;
+    gap: 30px;
+    margin: 60px auto;
+}
+
+.submitSignUp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: #1c2237;
+    background-color: white;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+.submit-containerSignUp :hover {
+    background-color: coral;
+}
